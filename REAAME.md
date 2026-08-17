@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-# CB23-2026
-Codeigos usados duarante a materia CB23 - Programação 2 - IMPA Tech 2026
-=======
 # Respostas das Atividades – Programação 2 (2026)
 
 Este repositório é destinado ao recebimento e centralização das soluções das atividades práticas da disciplina.
@@ -40,4 +36,4 @@ Plaintext
     
 - [ ] O título do Pull Request segue o formato `<numero_atividade>_<matricula>`.
 
->>>>>>> ca4f5989cff5d781df21607a55836fcc8d967c0f
+
