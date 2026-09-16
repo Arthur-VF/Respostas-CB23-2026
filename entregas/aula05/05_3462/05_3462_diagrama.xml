@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<document>
+  <record ClassName="Pessoa" Attributes="+ nome : str, + idade : int" Methods="" InheritsFrom="" Associations=""/>
+  <record ClassName="Funcionário" Attributes="+ salario : float, + carga_horaria : int" Methods="" InheritsFrom="Pessoa" Associations=""/>
+  <record ClassName="Chefe" Attributes="" Methods="+ preparar(argumento2 : Iguaria)" InheritsFrom="Funcionário" Associations=""/>
+  <record ClassName="Gerente" Attributes="" Methods="+ demitir(argumento3 : Funcionario)" InheritsFrom="Funcionário" Associations=""/>
+  <record ClassName="Garçom" Attributes="" Methods="+ anotar_pedido(argumento1 : Pedido)" InheritsFrom="Funcionário" Associations=""/>
+  <record ClassName="Iguaria" Attributes="+ nome : str, + preco : float" Methods="" InheritsFrom="" Associations=""/>
+  <record ClassName="Bolo" Attributes="+ formato : str" Methods="" InheritsFrom="Iguaria" Associations=""/>
+  <record ClassName="Pizza" Attributes="+ borda_recheada : bool" Methods="" InheritsFrom="Iguaria" Associations=""/>
+  <record ClassName="Pedido" Attributes="+ itens : list[Iguaria]" Methods="" InheritsFrom="" Associations="Iguaria"/>
+  <record ClassName="Restaurante" Attributes="+ nome : str, + endereco : str, + telefone : str" Methods="" InheritsFrom="" Associations="Iguaria"/>
+  <record ClassName="Pizzaria" Attributes="+ rodizio : bool" Methods="" InheritsFrom="Restaurante" Associations=""/>
+</document>

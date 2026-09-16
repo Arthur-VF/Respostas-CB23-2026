@@ -1,0 +1,2 @@
+Quando um elemento entra na fila ele sofre um push() na pilha de entrada(custo 1). Durante a transferência ele sofre um pop() da entrada e um push() na saída(custo 2). Quando ele sai da fila ele sofre um pop() da saída(custo 1). Ou seja, cada elemento será transferido no máximo 4 vezes durante sua existência, logo o custo por elemento é fixo O(1).
+Portanto, o custo "caro" O(N) da transferência dilui-se entre os N elementos que já pagaram O(1) no momento da inserção, resultando em um custo O(1) amortizado
